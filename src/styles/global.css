@@ -1,0 +1,199 @@
+/* SF Arabic Black — supplied font file, used for Persian lyrics */
+@font-face {
+  font-family: 'Ios15';
+  src: url('/fonts/Ios_15_Black.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-latin: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-black: 'Ios15', 'Vazirmatn', 'Noto Naskh Arabic', Tahoma, sans-serif;
+  --font-naskh: 'Noto Naskh Arabic', 'Ios15', 'Vazirmatn', Tahoma, serif;
+  --font-vazir: 'Vazirmatn', 'Ios15', 'Noto Naskh Arabic', Tahoma, sans-serif;
+  --ease-cine: cubic-bezier(0.2, 0.7, 0.1, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+body { font-family: var(--font-black); -webkit-font-smoothing: antialiased; touch-action: manipulation; }
+body.cursor-on, body.cursor-on * { cursor: none !important; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; }
+button:focus-visible { outline: 1px solid rgba(255, 255, 255, 0.8); outline-offset: 4px; }
+
+/* ───────── stage ───────── */
+.stage { position: fixed; inset: 0; overflow: hidden; background: #000; }
+.world { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.vignette {
+  position: absolute; inset: 0; pointer-events: none; z-index: 2;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0) 35%, rgba(0,0,0,0.55) 100%);
+}
+.grain {
+  position: absolute; inset: 0; pointer-events: none; z-index: 3; opacity: 0.07; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* CSS-only smoke used when WebGL is unavailable */
+.fallback { position: absolute; inset: 0; background: #000; overflow: hidden; }
+.fallback i {
+  position: absolute; width: 80vmax; height: 80vmax; border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0) 62%);
+  filter: blur(30px); animation: drift 26s ease-in-out infinite alternate;
+}
+.fallback i:nth-child(1) { left: -20vmax; top: -20vmax; }
+.fallback i:nth-child(2) { right: -25vmax; top: 10vmax; animation-duration: 34s; animation-delay: -9s; }
+.fallback i:nth-child(3) { left: 10vmax; bottom: -40vmax; animation-duration: 42s; animation-delay: -17s; }
+@keyframes drift { from { transform: translate3d(0,0,0) scale(1); } to { transform: translate3d(12vmax,-6vmax,0) scale(1.25); } }
+
+/* ───────── lyrics — continuous synchronized track ───────── */
+.lyrics-wrap {
+  position: absolute; inset: 0; z-index: 5; display: grid; place-items: center; pointer-events: none;
+  opacity: 0; transition: opacity 1.4s ease;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.lyrics-wrap[data-phase='play'] { opacity: 1; }
+
+/* the viewport the track scrolls through; edges dissolve into the scene */
+.lyrics {
+  --fs: clamp(1.6rem, 1rem + 2.7vw, 4.1rem);
+  --off-x: 0vw; --off-y: 0vh;
+  --kick: 0; --energy: 0;
+  position: relative; width: min(94vw, 1200px); height: 70vh; overflow: hidden;
+  transform: translate(var(--off-x), var(--off-y));
+  transition: transform 1.8s var(--ease-cine);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 17%, #000 78%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, #000 17%, #000 78%, transparent 100%);
+}
+.lyrics[data-layout='low']   { --off-y: 17vh; }
+.lyrics[data-layout='high']  { --off-y: -17vh; }
+.lyrics[data-layout='left']  { --off-x: -9vw; }
+.lyrics[data-layout='right'] { --off-x: 9vw; }
+
+/* the full lyric column, glided by LyricsRenderer each frame */
+.lyrics-track {
+  position: absolute; left: 0; right: 0; top: 0;
+  padding: 30vh 0 36vh;
+  display: flex; flex-direction: column; align-items: center;
+  gap: clamp(2.2rem, 6vh, 4rem);
+  will-change: transform;
+}
+
+.line {
+  --lscale: 1; --pop: 1.1;
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline;
+  gap: 0.05em 0.34em; direction: rtl; text-align: center;
+  font-size: calc(var(--fs) * var(--lscale)); line-height: 1.55; color: #fff;
+  text-shadow: 0 0 0.45em rgba(0,0,0,0.9), 0 2px 34px rgba(0,0,0,0.95);
+  transition: transform 0.9s var(--ease-cine), opacity 0.8s ease;
+  will-change: transform, opacity;
+}
+.line[data-type='black'] { font-family: var(--font-black); font-weight: 900; }
+.line[data-type='naskh'] { font-family: var(--font-naskh); font-weight: 700; }
+.line[data-type='vazir'] { font-family: var(--font-vazir); font-weight: 300; }
+
+.line[data-role='active'] { transform: scale(1); opacity: 1; }
+.line[data-role='past']   { transform: scale(0.94); opacity: 0.78; }
+.line[data-role='future'] { transform: scale(0.94); opacity: 1; }
+
+/* word states: 0 upcoming (dimmed gray) · 1 sung now (bright white + glow) · 2 sung (bright) */
+.word {
+  display: inline-block; opacity: 0.3;
+  transition: opacity 0.45s ease, transform 0.55s var(--ease-cine), text-shadow 0.5s ease;
+  will-change: opacity, transform;
+}
+.word[data-s='1'] {
+  opacity: 1; transform: translateY(-0.07em) scale(var(--pop));
+  text-shadow:
+    0 0 0.35em rgba(255,255,255,0.8),
+    0 0 1.3em rgba(255,255,255, calc(0.3 + var(--kick) * 0.45)),
+    0 0 0.7em rgba(0,0,0,0.55);
+}
+.word[data-s='2'] { opacity: 0.94; }
+
+@media (max-width: 700px) {
+  .lyrics { --fs: clamp(1.5rem, 6.6vw, 2.4rem); height: 74vh; }
+  .lyrics-track { padding: 32vh 0 38vh; }
+  .lyrics[data-layout='left'], .lyrics[data-layout='right'] { --off-x: 0vw; }
+  .lyrics[data-layout='low']  { --off-y: 12vh; }
+  .lyrics[data-layout='high'] { --off-y: -12vh; }
+}
+@media (max-height: 480px) and (orientation: landscape) {
+  .lyrics { --fs: clamp(1.3rem, 3.6vw, 2.2rem); }
+  .lyrics-track { padding: 34vh 0 40vh; gap: clamp(1.6rem, 7vh, 3rem); }
+}
+
+/* ───────── progress + controls ───────── */
+.progress { position: absolute; left: 0; right: 0; bottom: 0; height: 1px; z-index: 6; background: rgba(255,255,255,0.1); pointer-events: none; }
+.progress .bar { height: 100%; width: 100%; background: rgba(255,255,255,0.85); transform-origin: left center; transform: scaleX(0); box-shadow: 0 0 8px rgba(255,255,255,0.6); }
+
+.ctrl {
+  position: fixed; z-index: 20; left: max(22px, env(safe-area-inset-left)); bottom: max(26px, env(safe-area-inset-bottom));
+  width: 48px; height: 48px; color: #fff; opacity: 0; pointer-events: none;
+  transition: opacity 0.9s ease, transform 0.4s var(--ease-cine);
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.8));
+}
+.ctrl[data-show='1'] { opacity: 0.7; pointer-events: auto; }
+.ctrl[data-show='1']:hover { opacity: 1; transform: scale(1.08); }
+
+.notice {
+  position: fixed; z-index: 15; left: 0; right: 0; bottom: 22px; margin: 0; text-align: center;
+  font: 300 0.8rem/1 var(--font-latin); letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.55;
+}
+
+/* ───────── intro ───────── */
+.intro { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; align-content: center; pointer-events: none; }
+.intro-veil { position: absolute; inset: 0; background: #000; opacity: 1; }
+.intro-title {
+  position: relative; margin: 0; opacity: 0; --lx: -30%;
+  font: 500 clamp(2.2rem, 9vw, 7.5rem)/1 var(--font-latin); letter-spacing: 0.52em; padding-left: 0.52em; text-transform: uppercase;
+  background-image: radial-gradient(circle 24vw at var(--lx) 50%, #fff 0%, rgba(255,255,255,0.92) 18%, rgba(255,255,255,0.07) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
+  max-width: 100vw; white-space: nowrap;
+}
+.intro-sub {
+  position: relative; margin: 2.2rem 0 0; opacity: 0;
+  font: 300 clamp(0.8rem, 1.6vw, 1.15rem)/1 var(--font-latin); letter-spacing: 0.5em; padding-left: 0.5em; text-transform: uppercase; color: #fff;
+}
+.gate {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.9rem; pointer-events: auto; color: #fff; z-index: 2;
+}
+.gate:disabled { pointer-events: none; }
+.gate-line { width: 1px; height: 64px; background: linear-gradient(to bottom, rgba(255,255,255,0), #fff); animation: pulse 2.6s ease-in-out infinite; }
+.gate-en { font: 300 0.95rem/1 var(--font-latin); letter-spacing: 0.7em; padding-left: 0.7em; }
+.gate-fa { font: 300 0.8rem/1 var(--font-vazir); opacity: 0.6; }
+@keyframes pulse { 0%, 100% { opacity: 0.25; transform: scaleY(0.7); } 50% { opacity: 1; transform: scaleY(1); } }
+
+/* ───────── cursor ───────── */
+.cursor-dot, .cursor-ring { position: fixed; left: 0; top: 0; z-index: 100; pointer-events: none; opacity: 0; mix-blend-mode: difference; }
+.cursor-dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+.cursor-ring { width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.8); transition: transform 0.35s var(--ease-cine); }
+@media (pointer: coarse) { .cursor-dot, .cursor-ring { display: none; } }
+
+/* ───────── errors ───────── */
+.error-screen {
+  position: fixed; inset: 0; z-index: 200; background: #000; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 2rem; text-align: center;
+}
+.error-fa { margin: 0; font: 900 clamp(1.4rem, 4vw, 2.4rem)/1.5 var(--font-black); }
+.error-en { margin: 0; font: 300 1rem/1.4 var(--font-latin); letter-spacing: 0.25em; text-transform: uppercase; opacity: 0.8; }
+.error-detail { margin: 0; font: 300 0.85rem/1.4 var(--font-latin); opacity: 0.45; max-width: 36rem; }
+.error-screen button { margin-top: 1.4rem; padding: 0.8rem 1.8rem; border: 1px solid rgba(255,255,255,0.5); font: 300 0.85rem/1 var(--font-vazir); letter-spacing: 0.1em; transition: background 0.3s; }
+.error-screen button:hover { background: rgba(255,255,255,0.12); }
+
+/* ───────── reduced motion ───────── */
+@media (prefers-reduced-motion: reduce) {
+  .line, .word, .lyrics, .ctrl { transition-duration: 0.3s !important; }
+  .gate-line, .fallback i { animation: none; }
+  .word[data-s='1'] { transform: none; }
+}

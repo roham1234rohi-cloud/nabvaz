@@ -1,0 +1,2193 @@
+[
+  {
+    "word": "شبا",
+    "start": 24.15,
+    "end": 24.616,
+    "confidence": 0.975,
+    "line_index": 0
+  },
+  {
+    "word": "بد",
+    "start": 24.616,
+    "end": 24.996,
+    "confidence": 0.985,
+    "line_index": 0
+  },
+  {
+    "word": "روزا",
+    "start": 24.996,
+    "end": 25.32,
+    "confidence": 0.991,
+    "line_index": 0
+  },
+  {
+    "word": "درگیرِ",
+    "start": 25.32,
+    "end": 26.05,
+    "confidence": 0.646,
+    "line_index": 0
+  },
+  {
+    "word": "کارم",
+    "start": 26.05,
+    "end": 26.96,
+    "confidence": 0.6,
+    "line_index": 0
+  },
+  {
+    "word": "حالم",
+    "start": 27.142,
+    "end": 28.19,
+    "confidence": 0.959,
+    "line_index": 1
+  },
+  {
+    "word": "خوش",
+    "start": 28.19,
+    "end": 28.616,
+    "confidence": 0.953,
+    "line_index": 1
+  },
+  {
+    "word": "نی،",
+    "start": 28.616,
+    "end": 29.26,
+    "confidence": 0.345,
+    "line_index": 1
+  },
+  {
+    "word": "تو",
+    "start": 29.77,
+    "end": 30.072,
+    "confidence": 0.981,
+    "line_index": 1
+  },
+  {
+    "word": "منو",
+    "start": 30.072,
+    "end": 30.412,
+    "confidence": 0.983,
+    "line_index": 1
+  },
+  {
+    "word": "کُشتی",
+    "start": 30.412,
+    "end": 32.65,
+    "confidence": 0.42,
+    "line_index": 1
+  },
+  {
+    "word": "پشتِ",
+    "start": 32.71,
+    "end": 33.336,
+    "confidence": 0.793,
+    "line_index": 2
+  },
+  {
+    "word": "پنجره",
+    "start": 33.336,
+    "end": 34.056,
+    "confidence": 0.981,
+    "line_index": 2
+  },
+  {
+    "word": "میشینم",
+    "start": 34.056,
+    "end": 34.86,
+    "confidence": 0.668,
+    "line_index": 2
+  },
+  {
+    "word": "و",
+    "start": 34.86,
+    "end": 34.988,
+    "confidence": 0,
+    "line_index": 2
+  },
+  {
+    "word": "خنده",
+    "start": 34.988,
+    "end": 35.596,
+    "confidence": 0.868,
+    "line_index": 2
+  },
+  {
+    "word": "این",
+    "start": 35.596,
+    "end": 35.908,
+    "confidence": 0.1,
+    "line_index": 2
+  },
+  {
+    "word": "پشت",
+    "start": 35.908,
+    "end": 36.36,
+    "confidence": 0.597,
+    "line_index": 2
+  },
+  {
+    "word": "نی",
+    "start": 36.36,
+    "end": 36.97,
+    "confidence": 0.298,
+    "line_index": 2
+  },
+  {
+    "word": "اخما",
+    "start": 37.09,
+    "end": 37.9,
+    "confidence": 0.976,
+    "line_index": 3
+  },
+  {
+    "word": "توو",
+    "start": 37.99,
+    "end": 38.376,
+    "confidence": 0.518,
+    "line_index": 3
+  },
+  {
+    "word": "هم،",
+    "start": 38.376,
+    "end": 39.22,
+    "confidence": 0.962,
+    "line_index": 3
+  },
+  {
+    "word": "غُصه",
+    "start": 39.31,
+    "end": 39.928,
+    "confidence": 0.494,
+    "line_index": 3
+  },
+  {
+    "word": "ها",
+    "start": 39.928,
+    "end": 40.212,
+    "confidence": 0.969,
+    "line_index": 3
+  },
+  {
+    "word": "کوهن",
+    "start": 40.212,
+    "end": 41.65,
+    "confidence": 0.65,
+    "line_index": 3
+  },
+  {
+    "word": "انگار",
+    "start": 41.65,
+    "end": 42.092,
+    "confidence": 0.413,
+    "line_index": 4
+  },
+  {
+    "word": "مجبورم",
+    "start": 42.092,
+    "end": 43.81,
+    "confidence": 0.989,
+    "line_index": 4
+  },
+  {
+    "word": "که",
+    "start": 43.81,
+    "end": 44.268,
+    "confidence": 0.75,
+    "line_index": 4
+  },
+  {
+    "word": "ازت",
+    "start": 44.268,
+    "end": 44.656,
+    "confidence": 0.894,
+    "line_index": 4
+  },
+  {
+    "word": "دورم",
+    "start": 44.656,
+    "end": 45.97,
+    "confidence": 0.967,
+    "line_index": 4
+  },
+  {
+    "word": "بی",
+    "start": 45.97,
+    "end": 46.252,
+    "confidence": 0.241,
+    "line_index": 5
+  },
+  {
+    "word": "تو",
+    "start": 46.252,
+    "end": 46.456,
+    "confidence": 0.95,
+    "line_index": 5
+  },
+  {
+    "word": "این",
+    "start": 46.456,
+    "end": 46.788,
+    "confidence": 0.494,
+    "line_index": 5
+  },
+  {
+    "word": "شب",
+    "start": 46.788,
+    "end": 47.16,
+    "confidence": 0.917,
+    "line_index": 5
+  },
+  {
+    "word": "ها",
+    "start": 47.16,
+    "end": 47.7,
+    "confidence": 0.517,
+    "line_index": 5
+  },
+  {
+    "word": "چقده",
+    "start": 48.33,
+    "end": 48.972,
+    "confidence": 0.948,
+    "line_index": 5
+  },
+  {
+    "word": "شومن",
+    "start": 48.972,
+    "end": 50.305,
+    "confidence": 0.945,
+    "line_index": 5
+  },
+  {
+    "word": "چقده",
+    "start": 50.305,
+    "end": 51.132,
+    "confidence": 0.907,
+    "line_index": 6
+  },
+  {
+    "word": "رفتارت",
+    "start": 51.132,
+    "end": 52.24,
+    "confidence": 0.863,
+    "line_index": 6
+  },
+  {
+    "word": "تاثیر",
+    "start": 52.24,
+    "end": 52.992,
+    "confidence": 0.489,
+    "line_index": 6
+  },
+  {
+    "word": "داره",
+    "start": 52.992,
+    "end": 53.352,
+    "confidence": 0.946,
+    "line_index": 6
+  },
+  {
+    "word": "رو",
+    "start": 53.352,
+    "end": 53.684,
+    "confidence": 0.927,
+    "line_index": 6
+  },
+  {
+    "word": "من",
+    "start": 53.684,
+    "end": 54.27,
+    "confidence": 0.865,
+    "line_index": 6
+  },
+  {
+    "word": "نه",
+    "start": 54.35,
+    "end": 55.012,
+    "confidence": 0.931,
+    "line_index": 7
+  },
+  {
+    "word": "میتونم",
+    "start": 55.012,
+    "end": 55.856,
+    "confidence": 0.732,
+    "line_index": 7
+  },
+  {
+    "word": "جلوت",
+    "start": 55.856,
+    "end": 56.368,
+    "confidence": 0.865,
+    "line_index": 7
+  },
+  {
+    "word": "این",
+    "start": 56.368,
+    "end": 56.62,
+    "confidence": 0.333,
+    "line_index": 7
+  },
+  {
+    "word": "بحثَ",
+    "start": 56.62,
+    "end": 57.156,
+    "confidence": 0.67,
+    "line_index": 7
+  },
+  {
+    "word": "رو",
+    "start": 57.156,
+    "end": 57.368,
+    "confidence": 0.967,
+    "line_index": 7
+  },
+  {
+    "word": "بازش",
+    "start": 57.368,
+    "end": 58.06,
+    "confidence": 0.966,
+    "line_index": 7
+  },
+  {
+    "word": "کنم",
+    "start": 58.06,
+    "end": 58.71,
+    "confidence": 0.575,
+    "line_index": 7
+  },
+  {
+    "word": "نه",
+    "start": 58.71,
+    "end": 59.312,
+    "confidence": 0.958,
+    "line_index": 8
+  },
+  {
+    "word": "میتونم",
+    "start": 59.312,
+    "end": 60.208,
+    "confidence": 0.719,
+    "line_index": 8
+  },
+  {
+    "word": "با",
+    "start": 60.208,
+    "end": 60.396,
+    "confidence": 0.984,
+    "line_index": 8
+  },
+  {
+    "word": "غمِ",
+    "start": 60.396,
+    "end": 60.928,
+    "confidence": 0.558,
+    "line_index": 8
+  },
+  {
+    "word": "تنهایی",
+    "start": 60.928,
+    "end": 61.728,
+    "confidence": 0.301,
+    "line_index": 8
+  },
+  {
+    "word": "سازش",
+    "start": 61.728,
+    "end": 62.416,
+    "confidence": 0.991,
+    "line_index": 8
+  },
+  {
+    "word": "کنم",
+    "start": 62.416,
+    "end": 63.06,
+    "confidence": 0.652,
+    "line_index": 8
+  },
+  {
+    "word": "نه",
+    "start": 63.06,
+    "end": 63.624,
+    "confidence": 0.953,
+    "line_index": 9
+  },
+  {
+    "word": "غرور",
+    "start": 63.624,
+    "end": 64.432,
+    "confidence": 0.993,
+    "line_index": 9
+  },
+  {
+    "word": "اجازه",
+    "start": 64.432,
+    "end": 64.992,
+    "confidence": 0.958,
+    "line_index": 9
+  },
+  {
+    "word": "میده",
+    "start": 64.992,
+    "end": 65.548,
+    "confidence": 0.616,
+    "line_index": 9
+  },
+  {
+    "word": "که",
+    "start": 65.548,
+    "end": 65.72,
+    "confidence": 0.441,
+    "line_index": 9
+  },
+  {
+    "word": "به",
+    "start": 65.72,
+    "end": 65.876,
+    "confidence": 0.951,
+    "line_index": 9
+  },
+  {
+    "word": "تو",
+    "start": 65.876,
+    "end": 66.072,
+    "confidence": 0.986,
+    "line_index": 9
+  },
+  {
+    "word": "خواهش",
+    "start": 66.072,
+    "end": 66.776,
+    "confidence": 0.975,
+    "line_index": 9
+  },
+  {
+    "word": "کنم",
+    "start": 66.776,
+    "end": 67.2,
+    "confidence": 0.59,
+    "line_index": 9
+  },
+  {
+    "word": "ولی",
+    "start": 67.2,
+    "end": 67.532,
+    "confidence": 0.545,
+    "line_index": 10
+  },
+  {
+    "word": "من",
+    "start": 67.532,
+    "end": 68.048,
+    "confidence": 0.921,
+    "line_index": 10
+  },
+  {
+    "word": "دلم",
+    "start": 68.048,
+    "end": 68.608,
+    "confidence": 0.979,
+    "line_index": 10
+  },
+  {
+    "word": "پَر",
+    "start": 68.608,
+    "end": 68.972,
+    "confidence": 0.354,
+    "line_index": 10
+  },
+  {
+    "word": "میزنه",
+    "start": 68.972,
+    "end": 69.556,
+    "confidence": 0.712,
+    "line_index": 10
+  },
+  {
+    "word": "موهاتو",
+    "start": 69.556,
+    "end": 70.236,
+    "confidence": 0.974,
+    "line_index": 10
+  },
+  {
+    "word": "نوازش",
+    "start": 70.236,
+    "end": 71.16,
+    "confidence": 0.801,
+    "line_index": 10
+  },
+  {
+    "word": "کنم",
+    "start": 71.16,
+    "end": 71.9,
+    "confidence": 0.442,
+    "line_index": 10
+  },
+  {
+    "word": "نه",
+    "start": 71.9,
+    "end": 72.472,
+    "confidence": 0.639,
+    "line_index": 11
+  },
+  {
+    "word": "میتونم",
+    "start": 72.472,
+    "end": 73.332,
+    "confidence": 0.697,
+    "line_index": 11
+  },
+  {
+    "word": "جلوت",
+    "start": 73.332,
+    "end": 73.852,
+    "confidence": 0.858,
+    "line_index": 11
+  },
+  {
+    "word": "این",
+    "start": 73.852,
+    "end": 74.096,
+    "confidence": 0.294,
+    "line_index": 11
+  },
+  {
+    "word": "بحثَ",
+    "start": 74.096,
+    "end": 74.632,
+    "confidence": 0.611,
+    "line_index": 11
+  },
+  {
+    "word": "رو",
+    "start": 74.632,
+    "end": 74.828,
+    "confidence": 0.957,
+    "line_index": 11
+  },
+  {
+    "word": "بازش",
+    "start": 74.828,
+    "end": 75.516,
+    "confidence": 0.985,
+    "line_index": 11
+  },
+  {
+    "word": "کنم",
+    "start": 75.516,
+    "end": 76.16,
+    "confidence": 0.529,
+    "line_index": 11
+  },
+  {
+    "word": "نه",
+    "start": 76.16,
+    "end": 76.768,
+    "confidence": 0.827,
+    "line_index": 12
+  },
+  {
+    "word": "میتونم",
+    "start": 76.768,
+    "end": 77.688,
+    "confidence": 0.624,
+    "line_index": 12
+  },
+  {
+    "word": "با",
+    "start": 77.688,
+    "end": 77.876,
+    "confidence": 0.771,
+    "line_index": 12
+  },
+  {
+    "word": "غمِ",
+    "start": 77.876,
+    "end": 78.392,
+    "confidence": 0.443,
+    "line_index": 12
+  },
+  {
+    "word": "تنهایی",
+    "start": 78.392,
+    "end": 79.156,
+    "confidence": 0.218,
+    "line_index": 12
+  },
+  {
+    "word": "سازش",
+    "start": 79.156,
+    "end": 79.876,
+    "confidence": 0.81,
+    "line_index": 12
+  },
+  {
+    "word": "کنم",
+    "start": 79.876,
+    "end": 80.53,
+    "confidence": 0.476,
+    "line_index": 12
+  },
+  {
+    "word": "نه",
+    "start": 80.53,
+    "end": 81.06,
+    "confidence": 0.765,
+    "line_index": 13
+  },
+  {
+    "word": "غرور",
+    "start": 81.06,
+    "end": 81.876,
+    "confidence": 0.985,
+    "line_index": 13
+  },
+  {
+    "word": "اجازه",
+    "start": 81.876,
+    "end": 82.448,
+    "confidence": 0.897,
+    "line_index": 13
+  },
+  {
+    "word": "میده",
+    "start": 82.448,
+    "end": 83.008,
+    "confidence": 0.598,
+    "line_index": 13
+  },
+  {
+    "word": "که",
+    "start": 83.008,
+    "end": 83.16,
+    "confidence": 0.435,
+    "line_index": 13
+  },
+  {
+    "word": "به",
+    "start": 83.16,
+    "end": 83.316,
+    "confidence": 0.92,
+    "line_index": 13
+  },
+  {
+    "word": "تو",
+    "start": 83.316,
+    "end": 83.532,
+    "confidence": 0.949,
+    "line_index": 13
+  },
+  {
+    "word": "خواهش",
+    "start": 83.532,
+    "end": 84.256,
+    "confidence": 0.938,
+    "line_index": 13
+  },
+  {
+    "word": "کنم",
+    "start": 84.256,
+    "end": 84.66,
+    "confidence": 0.573,
+    "line_index": 13
+  },
+  {
+    "word": "ولی",
+    "start": 84.66,
+    "end": 84.992,
+    "confidence": 0.386,
+    "line_index": 14
+  },
+  {
+    "word": "من",
+    "start": 84.992,
+    "end": 85.516,
+    "confidence": 0.802,
+    "line_index": 14
+  },
+  {
+    "word": "دلم",
+    "start": 85.516,
+    "end": 86.028,
+    "confidence": 0.931,
+    "line_index": 14
+  },
+  {
+    "word": "پَر",
+    "start": 86.028,
+    "end": 86.408,
+    "confidence": 0.391,
+    "line_index": 14
+  },
+  {
+    "word": "میزنه",
+    "start": 86.408,
+    "end": 86.98,
+    "confidence": 0.649,
+    "line_index": 14
+  },
+  {
+    "word": "موهاتو",
+    "start": 86.98,
+    "end": 87.692,
+    "confidence": 0.971,
+    "line_index": 14
+  },
+  {
+    "word": "نوازش",
+    "start": 87.692,
+    "end": 88.636,
+    "confidence": 0.779,
+    "line_index": 14
+  },
+  {
+    "word": "کنم",
+    "start": 88.636,
+    "end": 91.71,
+    "confidence": 0.33,
+    "line_index": 14
+  },
+  {
+    "word": "یه",
+    "start": 106.89,
+    "end": 107.268,
+    "confidence": 0.412,
+    "line_index": 15
+  },
+  {
+    "word": "چیزی",
+    "start": 107.268,
+    "end": 107.876,
+    "confidence": 0.608,
+    "line_index": 15
+  },
+  {
+    "word": "میگم",
+    "start": 107.876,
+    "end": 108.632,
+    "confidence": 0.634,
+    "line_index": 15
+  },
+  {
+    "word": "بهت",
+    "start": 108.632,
+    "end": 108.956,
+    "confidence": 0.89,
+    "line_index": 15
+  },
+  {
+    "word": "شاید",
+    "start": 108.956,
+    "end": 109.536,
+    "confidence": 0.711,
+    "line_index": 15
+  },
+  {
+    "word": "بخندی",
+    "start": 109.536,
+    "end": 110.564,
+    "confidence": 0.76,
+    "line_index": 15
+  },
+  {
+    "word": "بهم",
+    "start": 110.564,
+    "end": 111.38,
+    "confidence": 0.599,
+    "line_index": 15
+  },
+  {
+    "word": "شاید",
+    "start": 111.38,
+    "end": 112.144,
+    "confidence": 0.585,
+    "line_index": 16
+  },
+  {
+    "word": "اصلاً",
+    "start": 112.144,
+    "end": 112.572,
+    "confidence": 0.882,
+    "line_index": 16
+  },
+  {
+    "word": "چِشاتو",
+    "start": 112.572,
+    "end": 113.532,
+    "confidence": 0.802,
+    "line_index": 16
+  },
+  {
+    "word": "باز",
+    "start": 113.532,
+    "end": 113.916,
+    "confidence": 0.986,
+    "line_index": 16
+  },
+  {
+    "word": "ببندی",
+    "start": 113.916,
+    "end": 114.924,
+    "confidence": 0.741,
+    "line_index": 16
+  },
+  {
+    "word": "بره",
+    "start": 114.924,
+    "end": 115.73,
+    "confidence": 0.806,
+    "line_index": 16
+  },
+  {
+    "word": "یه",
+    "start": 115.73,
+    "end": 116.072,
+    "confidence": 0.447,
+    "line_index": 17
+  },
+  {
+    "word": "چیزی",
+    "start": 116.072,
+    "end": 116.632,
+    "confidence": 0.418,
+    "line_index": 17
+  },
+  {
+    "word": "میگم",
+    "start": 116.632,
+    "end": 117.328,
+    "confidence": 0.59,
+    "line_index": 17
+  },
+  {
+    "word": "فقط،",
+    "start": 117.328,
+    "end": 118.34,
+    "confidence": 0.993,
+    "line_index": 17
+  },
+  {
+    "word": "در",
+    "start": 118.37,
+    "end": 118.772,
+    "confidence": 0.992,
+    "line_index": 17
+  },
+  {
+    "word": "حد",
+    "start": 118.772,
+    "end": 119.292,
+    "confidence": 0.922,
+    "line_index": 17
+  },
+  {
+    "word": "گِله",
+    "start": 119.292,
+    "end": 120.11,
+    "confidence": 0.568,
+    "line_index": 17
+  },
+  {
+    "word": "اذیت",
+    "start": 120.29,
+    "end": 121.008,
+    "confidence": 0.42,
+    "line_index": 18
+  },
+  {
+    "word": "میشم",
+    "start": 121.008,
+    "end": 121.736,
+    "confidence": 0.725,
+    "line_index": 18
+  },
+  {
+    "word": "بس",
+    "start": 121.736,
+    "end": 122.112,
+    "confidence": 0.98,
+    "line_index": 18
+  },
+  {
+    "word": "که",
+    "start": 122.112,
+    "end": 122.71,
+    "confidence": 0.571,
+    "line_index": 18
+  },
+  {
+    "word": "چِشمات",
+    "start": 122.71,
+    "end": 123.38,
+    "confidence": 0.761,
+    "line_index": 18
+  },
+  {
+    "word": "خوشگله",
+    "start": 123.38,
+    "end": 124.35,
+    "confidence": 0.937,
+    "line_index": 18
+  },
+  {
+    "word": "یه",
+    "start": 124.53,
+    "end": 124.92,
+    "confidence": 0.265,
+    "line_index": 19
+  },
+  {
+    "word": "چیزی",
+    "start": 124.92,
+    "end": 125.388,
+    "confidence": 0.467,
+    "line_index": 19
+  },
+  {
+    "word": "میگم،",
+    "start": 125.388,
+    "end": 126.64,
+    "confidence": 0.571,
+    "line_index": 19
+  },
+  {
+    "word": "یه",
+    "start": 126.85,
+    "end": 127.132,
+    "confidence": 0.218,
+    "line_index": 19
+  },
+  {
+    "word": "چیزی",
+    "start": 127.132,
+    "end": 127.552,
+    "confidence": 0.324,
+    "line_index": 19
+  },
+  {
+    "word": "میشنوی",
+    "start": 127.552,
+    "end": 128.49,
+    "confidence": 0.543,
+    "line_index": 19
+  },
+  {
+    "word": "ما",
+    "start": 128.49,
+    "end": 129.008,
+    "confidence": 0.986,
+    "line_index": 20
+  },
+  {
+    "word": "تو",
+    "start": 129.008,
+    "end": 129.332,
+    "confidence": 0.981,
+    "line_index": 20
+  },
+  {
+    "word": "هر",
+    "start": 129.332,
+    "end": 129.672,
+    "confidence": 0.992,
+    "line_index": 20
+  },
+  {
+    "word": "زمینه",
+    "start": 129.672,
+    "end": 130.488,
+    "confidence": 0.67,
+    "line_index": 20
+  },
+  {
+    "word": "ای",
+    "start": 130.488,
+    "end": 131.04,
+    "confidence": 0,
+    "line_index": 20
+  },
+  {
+    "word": "میکنیم",
+    "start": 131.05,
+    "end": 131.868,
+    "confidence": 0.193,
+    "line_index": 20
+  },
+  {
+    "word": "پیشروی",
+    "start": 131.868,
+    "end": 132.85,
+    "confidence": 0.538,
+    "line_index": 20
+  },
+  {
+    "word": "حالا",
+    "start": 133.25,
+    "end": 133.66,
+    "confidence": 0.789,
+    "line_index": 21
+  },
+  {
+    "word": "هم",
+    "start": 133.66,
+    "end": 133.912,
+    "confidence": 0.394,
+    "line_index": 21
+  },
+  {
+    "word": "که",
+    "start": 133.912,
+    "end": 134.16,
+    "confidence": 0.879,
+    "line_index": 21
+  },
+  {
+    "word": "حرفِ",
+    "start": 134.16,
+    "end": 134.592,
+    "confidence": 0.765,
+    "line_index": 21
+  },
+  {
+    "word": "دله،",
+    "start": 134.592,
+    "end": 135.45,
+    "confidence": 0.977,
+    "line_index": 21
+  },
+  {
+    "word": "حرفشو",
+    "start": 135.45,
+    "end": 136.252,
+    "confidence": 0.951,
+    "line_index": 21
+  },
+  {
+    "word": "میشنویم",
+    "start": 136.252,
+    "end": 137.54,
+    "confidence": 0.646,
+    "line_index": 21
+  },
+  {
+    "word": "تو",
+    "start": 137.54,
+    "end": 137.872,
+    "confidence": 0.969,
+    "line_index": 22
+  },
+  {
+    "word": "میخوای",
+    "start": 137.872,
+    "end": 138.448,
+    "confidence": 0.633,
+    "line_index": 22
+  },
+  {
+    "word": "بشکونی،",
+    "start": 138.448,
+    "end": 139.68,
+    "confidence": 0.597,
+    "line_index": 22
+  },
+  {
+    "word": "خب",
+    "start": 139.69,
+    "end": 140.076,
+    "confidence": 0.913,
+    "line_index": 22
+  },
+  {
+    "word": "باشه",
+    "start": 140.076,
+    "end": 140.576,
+    "confidence": 0.936,
+    "line_index": 22
+  },
+  {
+    "word": "میشکنیم",
+    "start": 140.576,
+    "end": 141.73,
+    "confidence": 0.499,
+    "line_index": 22
+  },
+  {
+    "word": "نه",
+    "start": 141.73,
+    "end": 142.292,
+    "confidence": 0.989,
+    "line_index": 23
+  },
+  {
+    "word": "میتونم",
+    "start": 142.292,
+    "end": 143.132,
+    "confidence": 0.707,
+    "line_index": 23
+  },
+  {
+    "word": "جلوت",
+    "start": 143.132,
+    "end": 143.6,
+    "confidence": 0.882,
+    "line_index": 23
+  },
+  {
+    "word": "این",
+    "start": 143.6,
+    "end": 143.9,
+    "confidence": 0.329,
+    "line_index": 23
+  },
+  {
+    "word": "بحثَ",
+    "start": 143.9,
+    "end": 144.432,
+    "confidence": 0.565,
+    "line_index": 23
+  },
+  {
+    "word": "رو",
+    "start": 144.432,
+    "end": 144.648,
+    "confidence": 0.984,
+    "line_index": 23
+  },
+  {
+    "word": "بازش",
+    "start": 144.648,
+    "end": 145.336,
+    "confidence": 0.993,
+    "line_index": 23
+  },
+  {
+    "word": "کنم",
+    "start": 145.336,
+    "end": 145.98,
+    "confidence": 0.535,
+    "line_index": 23
+  },
+  {
+    "word": "نه",
+    "start": 145.98,
+    "end": 146.596,
+    "confidence": 0.956,
+    "line_index": 24
+  },
+  {
+    "word": "میتونم",
+    "start": 146.596,
+    "end": 147.488,
+    "confidence": 0.716,
+    "line_index": 24
+  },
+  {
+    "word": "با",
+    "start": 147.488,
+    "end": 147.676,
+    "confidence": 0.99,
+    "line_index": 24
+  },
+  {
+    "word": "غمِ",
+    "start": 147.676,
+    "end": 148.188,
+    "confidence": 0.508,
+    "line_index": 24
+  },
+  {
+    "word": "تنهایی",
+    "start": 148.188,
+    "end": 148.996,
+    "confidence": 0.388,
+    "line_index": 24
+  },
+  {
+    "word": "سازش",
+    "start": 148.996,
+    "end": 149.696,
+    "confidence": 0.994,
+    "line_index": 24
+  },
+  {
+    "word": "کنم",
+    "start": 149.696,
+    "end": 150.34,
+    "confidence": 0.551,
+    "line_index": 24
+  },
+  {
+    "word": "نه",
+    "start": 150.34,
+    "end": 150.904,
+    "confidence": 0.87,
+    "line_index": 25
+  },
+  {
+    "word": "غرور",
+    "start": 150.904,
+    "end": 151.712,
+    "confidence": 0.93,
+    "line_index": 25
+  },
+  {
+    "word": "اجازه",
+    "start": 151.712,
+    "end": 152.268,
+    "confidence": 0.589,
+    "line_index": 25
+  },
+  {
+    "word": "میده",
+    "start": 152.268,
+    "end": 152.824,
+    "confidence": 0.439,
+    "line_index": 25
+  },
+  {
+    "word": "که",
+    "start": 152.824,
+    "end": 152.98,
+    "confidence": 0.408,
+    "line_index": 25
+  },
+  {
+    "word": "به",
+    "start": 152.98,
+    "end": 153.136,
+    "confidence": 0.94,
+    "line_index": 25
+  },
+  {
+    "word": "تو",
+    "start": 153.136,
+    "end": 153.352,
+    "confidence": 0.937,
+    "line_index": 25
+  },
+  {
+    "word": "خواهش",
+    "start": 153.352,
+    "end": 154.036,
+    "confidence": 0.921,
+    "line_index": 25
+  },
+  {
+    "word": "کنم",
+    "start": 154.036,
+    "end": 154.48,
+    "confidence": 0.498,
+    "line_index": 25
+  },
+  {
+    "word": "ولی",
+    "start": 154.48,
+    "end": 154.808,
+    "confidence": 0.454,
+    "line_index": 26
+  },
+  {
+    "word": "من",
+    "start": 154.808,
+    "end": 155.308,
+    "confidence": 0.952,
+    "line_index": 26
+  },
+  {
+    "word": "دلم",
+    "start": 155.308,
+    "end": 155.872,
+    "confidence": 0.99,
+    "line_index": 26
+  },
+  {
+    "word": "پَر",
+    "start": 155.872,
+    "end": 156.252,
+    "confidence": 0.438,
+    "line_index": 26
+  },
+  {
+    "word": "میزنه",
+    "start": 156.252,
+    "end": 156.836,
+    "confidence": 0.642,
+    "line_index": 26
+  },
+  {
+    "word": "موهاتو",
+    "start": 156.836,
+    "end": 157.516,
+    "confidence": 0.954,
+    "line_index": 26
+  },
+  {
+    "word": "نوازش",
+    "start": 157.516,
+    "end": 158.44,
+    "confidence": 0.836,
+    "line_index": 26
+  },
+  {
+    "word": "کنم",
+    "start": 158.44,
+    "end": 159.15,
+    "confidence": 0.505,
+    "line_index": 26
+  },
+  {
+    "word": "ما",
+    "start": 159.15,
+    "end": 159.432,
+    "confidence": 0.856,
+    "line_index": 27
+  },
+  {
+    "word": "که",
+    "start": 159.432,
+    "end": 159.74,
+    "confidence": 0.464,
+    "line_index": 27
+  },
+  {
+    "word": "این",
+    "start": 159.74,
+    "end": 159.992,
+    "confidence": 0.084,
+    "line_index": 27
+  },
+  {
+    "word": "حرفا",
+    "start": 159.992,
+    "end": 160.428,
+    "confidence": 0.867,
+    "line_index": 27
+  },
+  {
+    "word": "رو",
+    "start": 160.428,
+    "end": 160.6,
+    "confidence": 0.949,
+    "line_index": 27
+  },
+  {
+    "word": "نداریم",
+    "start": 160.6,
+    "end": 161.57,
+    "confidence": 0.541,
+    "line_index": 27
+  },
+  {
+    "word": "تو",
+    "start": 161.57,
+    "end": 161.832,
+    "confidence": 0.924,
+    "line_index": 28
+  },
+  {
+    "word": "چقد",
+    "start": 161.832,
+    "end": 162.412,
+    "confidence": 0.898,
+    "line_index": 28
+  },
+  {
+    "word": "ناز",
+    "start": 162.412,
+    "end": 162.776,
+    "confidence": 0.979,
+    "line_index": 28
+  },
+  {
+    "word": "داری",
+    "start": 162.776,
+    "end": 163.43,
+    "confidence": 0.477,
+    "line_index": 28
+  },
+  {
+    "word": "ما",
+    "start": 163.43,
+    "end": 163.948,
+    "confidence": 0.978,
+    "line_index": 29
+  },
+  {
+    "word": "شاه",
+    "start": 163.948,
+    "end": 164.48,
+    "confidence": 0.968,
+    "line_index": 29
+  },
+  {
+    "word": "و",
+    "start": 164.48,
+    "end": 164.608,
+    "confidence": 0.843,
+    "line_index": 29
+  },
+  {
+    "word": "بی",
+    "start": 164.608,
+    "end": 164.912,
+    "confidence": 0.292,
+    "line_index": 29
+  },
+  {
+    "word": "بی",
+    "start": 164.912,
+    "end": 165.148,
+    "confidence": 0.29,
+    "line_index": 29
+  },
+  {
+    "word": "بودیم",
+    "start": 165.148,
+    "end": 165.79,
+    "confidence": 0.654,
+    "line_index": 29
+  },
+  {
+    "word": "چی",
+    "start": 165.79,
+    "end": 166.1,
+    "confidence": 0.59,
+    "line_index": 30
+  },
+  {
+    "word": "کارِ",
+    "start": 166.1,
+    "end": 166.492,
+    "confidence": 0.163,
+    "line_index": 30
+  },
+  {
+    "word": "سرباز",
+    "start": 166.492,
+    "end": 167.172,
+    "confidence": 0.993,
+    "line_index": 30
+  },
+  {
+    "word": "داری؟",
+    "start": 167.172,
+    "end": 167.77,
+    "confidence": 0.465,
+    "line_index": 30
+  },
+  {
+    "word": "ما",
+    "start": 168.07,
+    "end": 168.412,
+    "confidence": 0.988,
+    "line_index": 31
+  },
+  {
+    "word": "که",
+    "start": 168.412,
+    "end": 168.64,
+    "confidence": 0.549,
+    "line_index": 31
+  },
+  {
+    "word": "دلمونو",
+    "start": 168.64,
+    "end": 169.472,
+    "confidence": 0.983,
+    "line_index": 31
+  },
+  {
+    "word": "پایِ",
+    "start": 169.472,
+    "end": 170.092,
+    "confidence": 0.405,
+    "line_index": 31
+  },
+  {
+    "word": "هر",
+    "start": 170.092,
+    "end": 170.392,
+    "confidence": 0.817,
+    "line_index": 31
+  },
+  {
+    "word": "چی",
+    "start": 170.392,
+    "end": 170.616,
+    "confidence": 0.635,
+    "line_index": 31
+  },
+  {
+    "word": "دلت",
+    "start": 170.616,
+    "end": 171.128,
+    "confidence": 0.988,
+    "line_index": 31
+  },
+  {
+    "word": "خواست",
+    "start": 171.128,
+    "end": 171.52,
+    "confidence": 0.859,
+    "line_index": 31
+  },
+  {
+    "word": "دادیم",
+    "start": 171.52,
+    "end": 172.225,
+    "confidence": 0.63,
+    "line_index": 31
+  },
+  {
+    "word": "پاس",
+    "start": 172.225,
+    "end": 172.632,
+    "confidence": 0.987,
+    "line_index": 32
+  },
+  {
+    "word": "دادیم",
+    "start": 172.632,
+    "end": 173.34,
+    "confidence": 0.576,
+    "line_index": 32
+  },
+  {
+    "word": "به",
+    "start": 173.34,
+    "end": 173.684,
+    "confidence": 0.975,
+    "line_index": 32
+  },
+  {
+    "word": "اونی",
+    "start": 173.684,
+    "end": 174.112,
+    "confidence": 0.508,
+    "line_index": 32
+  },
+  {
+    "word": "که",
+    "start": 174.112,
+    "end": 174.73,
+    "confidence": 0.511,
+    "line_index": 32
+  },
+  {
+    "word": "بلد",
+    "start": 174.73,
+    "end": 175.372,
+    "confidence": 0.99,
+    "line_index": 32
+  },
+  {
+    "word": "نی",
+    "start": 175.372,
+    "end": 175.572,
+    "confidence": 0.162,
+    "line_index": 32
+  },
+  {
+    "word": "پاسکاری",
+    "start": 175.572,
+    "end": 176.575,
+    "confidence": 0.354,
+    "line_index": 32
+  },
+  {
+    "word": "فقط",
+    "start": 176.575,
+    "end": 177.18,
+    "confidence": 0.993,
+    "line_index": 33
+  },
+  {
+    "word": "بلدی",
+    "start": 177.18,
+    "end": 178.052,
+    "confidence": 0.517,
+    "line_index": 33
+  },
+  {
+    "word": "که،",
+    "start": 178.052,
+    "end": 179.18,
+    "confidence": 0.476,
+    "line_index": 33
+  },
+  {
+    "word": "دلِ",
+    "start": 179.18,
+    "end": 179.536,
+    "confidence": 0.556,
+    "line_index": 33
+  },
+  {
+    "word": "منو",
+    "start": 179.536,
+    "end": 179.892,
+    "confidence": 0.986,
+    "line_index": 33
+  },
+  {
+    "word": "بشکنی",
+    "start": 179.892,
+    "end": 181.19,
+    "confidence": 0.619,
+    "line_index": 33
+  },
+  {
+    "word": "اونی",
+    "start": 181.25,
+    "end": 181.844,
+    "confidence": 0.4,
+    "line_index": 34
+  },
+  {
+    "word": "که",
+    "start": 181.844,
+    "end": 182.092,
+    "confidence": 0.643,
+    "line_index": 34
+  },
+  {
+    "word": "گفتی",
+    "start": 182.092,
+    "end": 182.616,
+    "confidence": 0.589,
+    "line_index": 34
+  },
+  {
+    "word": "واسشی",
+    "start": 182.616,
+    "end": 183.476,
+    "confidence": 0.702,
+    "line_index": 34
+  },
+  {
+    "word": "حقشو",
+    "start": 183.476,
+    "end": 184.252,
+    "confidence": 0.984,
+    "line_index": 34
+  },
+  {
+    "word": "بش",
+    "start": 184.252,
+    "end": 184.616,
+    "confidence": 0.99,
+    "line_index": 34
+  },
+  {
+    "word": "ندی",
+    "start": 184.616,
+    "end": 185.235,
+    "confidence": 0.449,
+    "line_index": 34
+  },
+  {
+    "word": "فقط",
+    "start": 185.235,
+    "end": 185.952,
+    "confidence": 0.993,
+    "line_index": 35
+  },
+  {
+    "word": "میدونی",
+    "start": 185.952,
+    "end": 186.788,
+    "confidence": 0.419,
+    "line_index": 35
+  },
+  {
+    "word": "که",
+    "start": 186.788,
+    "end": 187.5,
+    "confidence": 0.476,
+    "line_index": 35
+  },
+  {
+    "word": "همه",
+    "start": 187.81,
+    "end": 188.272,
+    "confidence": 0.976,
+    "line_index": 35
+  },
+  {
+    "word": "چی",
+    "start": 188.272,
+    "end": 188.512,
+    "confidence": 0.714,
+    "line_index": 35
+  },
+  {
+    "word": "و",
+    "start": 188.512,
+    "end": 188.808,
+    "confidence": 0.984,
+    "line_index": 35
+  },
+  {
+    "word": "عشقمی",
+    "start": 188.808,
+    "end": 189.57,
+    "confidence": 0.642,
+    "line_index": 35
+  },
+  {
+    "word": "ولی",
+    "start": 189.57,
+    "end": 190.232,
+    "confidence": 0.488,
+    "line_index": 36
+  },
+  {
+    "word": "نمیتونی",
+    "start": 190.232,
+    "end": 191.316,
+    "confidence": 0.547,
+    "line_index": 36
+  },
+  {
+    "word": "یه",
+    "start": 191.316,
+    "end": 191.544,
+    "confidence": 0.015,
+    "line_index": 36
+  },
+  {
+    "word": "چیزو",
+    "start": 191.544,
+    "end": 192.252,
+    "confidence": 0.716,
+    "line_index": 36
+  },
+  {
+    "word": "اِنقده",
+    "start": 192.252,
+    "end": 192.936,
+    "confidence": 0.631,
+    "line_index": 36
+  },
+  {
+    "word": "کش",
+    "start": 192.936,
+    "end": 193.356,
+    "confidence": 0.916,
+    "line_index": 36
+  },
+  {
+    "word": "ندی",
+    "start": 193.356,
+    "end": 193.97,
+    "confidence": 0.556,
+    "line_index": 36
+  },
+  {
+    "word": "نه",
+    "start": 193.97,
+    "end": 194.672,
+    "confidence": 0.983,
+    "line_index": 37
+  },
+  {
+    "word": "میتونم",
+    "start": 194.672,
+    "end": 195.496,
+    "confidence": 0.716,
+    "line_index": 37
+  },
+  {
+    "word": "جلوت",
+    "start": 195.496,
+    "end": 195.96,
+    "confidence": 0.872,
+    "line_index": 37
+  },
+  {
+    "word": "این",
+    "start": 195.96,
+    "end": 196.26,
+    "confidence": 0.348,
+    "line_index": 37
+  },
+  {
+    "word": "بحثَ",
+    "start": 196.26,
+    "end": 196.796,
+    "confidence": 0.558,
+    "line_index": 37
+  },
+  {
+    "word": "رو",
+    "start": 196.796,
+    "end": 197.008,
+    "confidence": 0.982,
+    "line_index": 37
+  },
+  {
+    "word": "بازش",
+    "start": 197.008,
+    "end": 197.696,
+    "confidence": 0.984,
+    "line_index": 37
+  },
+  {
+    "word": "کنم",
+    "start": 197.696,
+    "end": 198.34,
+    "confidence": 0.545,
+    "line_index": 37
+  },
+  {
+    "word": "نه",
+    "start": 198.34,
+    "end": 198.956,
+    "confidence": 0.948,
+    "line_index": 38
+  },
+  {
+    "word": "میتونم",
+    "start": 198.956,
+    "end": 199.852,
+    "confidence": 0.755,
+    "line_index": 38
+  },
+  {
+    "word": "با",
+    "start": 199.852,
+    "end": 200.036,
+    "confidence": 0.99,
+    "line_index": 38
+  },
+  {
+    "word": "غمِ",
+    "start": 200.036,
+    "end": 200.564,
+    "confidence": 0.5,
+    "line_index": 38
+  },
+  {
+    "word": "تنهایی",
+    "start": 200.564,
+    "end": 201.356,
+    "confidence": 0.364,
+    "line_index": 38
+  },
+  {
+    "word": "سازش",
+    "start": 201.356,
+    "end": 202.056,
+    "confidence": 0.994,
+    "line_index": 38
+  },
+  {
+    "word": "کنم",
+    "start": 202.056,
+    "end": 202.73,
+    "confidence": 0.588,
+    "line_index": 38
+  },
+  {
+    "word": "نه",
+    "start": 202.73,
+    "end": 203.24,
+    "confidence": 0.987,
+    "line_index": 39
+  },
+  {
+    "word": "غرور",
+    "start": 203.24,
+    "end": 204.056,
+    "confidence": 0.997,
+    "line_index": 39
+  },
+  {
+    "word": "اجازه",
+    "start": 204.056,
+    "end": 204.644,
+    "confidence": 0.982,
+    "line_index": 39
+  },
+  {
+    "word": "میده",
+    "start": 204.644,
+    "end": 205.184,
+    "confidence": 0.565,
+    "line_index": 39
+  },
+  {
+    "word": "که",
+    "start": 205.184,
+    "end": 205.34,
+    "confidence": 0.369,
+    "line_index": 39
+  },
+  {
+    "word": "به",
+    "start": 205.34,
+    "end": 205.496,
+    "confidence": 0.971,
+    "line_index": 39
+  },
+  {
+    "word": "تو",
+    "start": 205.496,
+    "end": 205.712,
+    "confidence": 0.986,
+    "line_index": 39
+  },
+  {
+    "word": "خواهش",
+    "start": 205.712,
+    "end": 206.4,
+    "confidence": 0.979,
+    "line_index": 39
+  },
+  {
+    "word": "کنم،",
+    "start": 206.4,
+    "end": 207.12,
+    "confidence": 0.6,
+    "line_index": 39
+  },
+  {
+    "word": "نه",
+    "start": 207.12,
+    "end": 207.26,
+    "confidence": 0.78,
+    "line_index": 39
+  },
+  {
+    "word": "نه",
+    "start": 207.26,
+    "end": 208.14,
+    "confidence": 0.206,
+    "line_index": 39
+  },
+  {
+    "word": "نه",
+    "start": 209.21,
+    "end": 210.02,
+    "confidence": 0.206,
+    "line_index": 40
+  },
+  {
+    "word": "میتونم",
+    "start": 212.03,
+    "end": 212.968,
+    "confidence": 0.043,
+    "line_index": 40
+  },
+  {
+    "word": "جلوت",
+    "start": 212.968,
+    "end": 213.476,
+    "confidence": 0.125,
+    "line_index": 40
+  },
+  {
+    "word": "این",
+    "start": 213.476,
+    "end": 213.736,
+    "confidence": 0,
+    "line_index": 40
+  },
+  {
+    "word": "بحثَ",
+    "start": 213.736,
+    "end": 214.272,
+    "confidence": 0.032,
+    "line_index": 40
+  },
+  {
+    "word": "رو",
+    "start": 214.272,
+    "end": 214.452,
+    "confidence": 0.756,
+    "line_index": 40
+  },
+  {
+    "word": "بازش",
+    "start": 214.452,
+    "end": 215.14,
+    "confidence": 0.643,
+    "line_index": 40
+  },
+  {
+    "word": "کنم",
+    "start": 215.14,
+    "end": 215.8,
+    "confidence": 0.163,
+    "line_index": 40
+  },
+  {
+    "word": "نه",
+    "start": 215.8,
+    "end": 216.412,
+    "confidence": 0.29,
+    "line_index": 41
+  },
+  {
+    "word": "میتونم",
+    "start": 216.412,
+    "end": 217.328,
+    "confidence": 0,
+    "line_index": 41
+  },
+  {
+    "word": "با",
+    "start": 217.328,
+    "end": 217.516,
+    "confidence": 0,
+    "line_index": 41
+  },
+  {
+    "word": "غمِ",
+    "start": 217.516,
+    "end": 218.06,
+    "confidence": 0,
+    "line_index": 41
+  },
+  {
+    "word": "تنهایی",
+    "start": 218.06,
+    "end": 218.8,
+    "confidence": 0,
+    "line_index": 41
+  },
+  {
+    "word": "سازش",
+    "start": 218.8,
+    "end": 219.516,
+    "confidence": 0,
+    "line_index": 41
+  },
+  {
+    "word": "کنم",
+    "start": 219.516,
+    "end": 220.56,
+    "confidence": 0.005,
+    "line_index": 41
+  },
+  {
+    "word": "نه",
+    "start": 220.56,
+    "end": 220.724,
+    "confidence": 0,
+    "line_index": 42
+  },
+  {
+    "word": "غرور",
+    "start": 220.724,
+    "end": 221.5,
+    "confidence": 0.982,
+    "line_index": 42
+  },
+  {
+    "word": "اجازه",
+    "start": 221.5,
+    "end": 222.088,
+    "confidence": 0.888,
+    "line_index": 42
+  },
+  {
+    "word": "میده",
+    "start": 222.088,
+    "end": 222.648,
+    "confidence": 0.605,
+    "line_index": 42
+  },
+  {
+    "word": "که",
+    "start": 222.648,
+    "end": 222.8,
+    "confidence": 0.383,
+    "line_index": 42
+  },
+  {
+    "word": "به",
+    "start": 222.8,
+    "end": 222.956,
+    "confidence": 0.984,
+    "line_index": 42
+  },
+  {
+    "word": "تو",
+    "start": 222.956,
+    "end": 223.156,
+    "confidence": 0.985,
+    "line_index": 42
+  },
+  {
+    "word": "خواهش",
+    "start": 223.156,
+    "end": 223.876,
+    "confidence": 0.979,
+    "line_index": 42
+  },
+  {
+    "word": "کنم",
+    "start": 223.876,
+    "end": 224.28,
+    "confidence": 0.743,
+    "line_index": 42
+  },
+  {
+    "word": "ولی",
+    "start": 224.28,
+    "end": 224.616,
+    "confidence": 0.511,
+    "line_index": 43
+  },
+  {
+    "word": "من",
+    "start": 224.616,
+    "end": 225.156,
+    "confidence": 0.806,
+    "line_index": 43
+  },
+  {
+    "word": "دلم",
+    "start": 225.156,
+    "end": 225.668,
+    "confidence": 0.992,
+    "line_index": 43
+  },
+  {
+    "word": "پَر",
+    "start": 225.668,
+    "end": 226.032,
+    "confidence": 0.327,
+    "line_index": 43
+  },
+  {
+    "word": "میزنه",
+    "start": 226.032,
+    "end": 226.62,
+    "confidence": 0.659,
+    "line_index": 43
+  },
+  {
+    "word": "موهاتو",
+    "start": 226.62,
+    "end": 227.316,
+    "confidence": 0.956,
+    "line_index": 43
+  },
+  {
+    "word": "نوازش",
+    "start": 227.316,
+    "end": 228.28,
+    "confidence": 0.895,
+    "line_index": 43
+  },
+  {
+    "word": "کنم",
+    "start": 228.28,
+    "end": 228.88,
+    "confidence": 0.353,
+    "line_index": 43
+  }
+]
